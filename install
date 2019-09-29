@@ -6,12 +6,12 @@
 echo "Installing..."
 
 echo "Sierra Theme"
-cp "Sierra Theme" "/usr/share/themes/Sierra Theme"
+cp -r "Sierra Theme" "/usr/share/themes/Sierra Theme"
 
 echo "Mojave - Sierra Cursor"
-cp "Sierra Cursor" "/usr/share/icons/Sierra Cursor"
+cp -r "Sierra Cursor" "/usr/share/icons/Sierra Cursor"
 
 echo "Mojave - Sierra Icons"
-cp "Sierra Icons" "/usr/share/icons/Sierra Icons"
+cp -r "Sierra Icons" "/usr/share/icons/Sierra Icons"
 
 echo "Completed"
