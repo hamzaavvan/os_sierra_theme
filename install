@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# For Debian Linux
+# Tested on Linux 4.19.0-kali3-amd64 #1 SMP Debian 4.19.20-1kali1 (2019-02-14) x86_64 GNU/Linux
+
+echo "Installing..."
+
+echo "Sierra Theme"
+cp "Sierra Theme" "/usr/share/themes/Sierra Theme"
+
+echo "Mojave - Sierra Cursor"
+cp "Sierra Cursor" "/usr/share/icons/Sierra Cursor"
+
+echo "Mojave - Sierra Icons"
+cp "Sierra Icons" "/usr/share/icons/Sierra Icons"
+
+echo "Completed"
